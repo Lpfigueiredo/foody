@@ -1,8 +1,8 @@
 package com.example.foody
 
-class Constrants {
+class Constants {
     companion object {
         const val BASE_URL = "https://api.spoonacular.com"
-        const val API_KEY = "bcfb51cf06184c28933000cc0b24f408"
+        const val API_KEY = "30cf02508d65420fb123e1733020d9e6"
     }
 }
