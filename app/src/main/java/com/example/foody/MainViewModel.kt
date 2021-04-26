@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import android.util.Log
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
@@ -48,7 +49,7 @@ class MainViewModel @ViewModelInject constructor(
             response.code() == 402 -> {
                 return NetworkResult.Error("API Key Limited")
             }
-            response.body()!!.results.isNullOrEmpty() -> {
+            response.body()?.results.isNullOrEmpty() -> {
                 return NetworkResult.Error("Recipes not found")
             }
             response.isSuccessful -> {
