@@ -93,7 +93,7 @@ class FavoriteRecipesAdapter(private val requireActivity: FragmentActivity) :
     }
 
     private fun changeRecipeStyle(holder: MyViewHolder, backgroundColor: Int, strokeColor: Int) {
-        holder.itemView.favoriteRecipesRowLayout.setBackgroundColor(
+        holder.itemView.favoriteRecipesCardLayout.setBackgroundColor(
             ContextCompat.getColor(
                 requireActivity,
                 backgroundColor
