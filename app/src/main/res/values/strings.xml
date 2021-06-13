@@ -37,4 +37,5 @@
     <string name="no_favorite_recipes">No Favorite Recipes</string>
     <string name="delete_favorite_menu">Delete Favorite Menu</string>
     <string name="delete_all">Delete All</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam risus mi, accumsan sit amet justo non, interdum luctus lorem. Nullam sollicitudin sem dolor, a pretium lectus semper vel.</string>
 </resources>
